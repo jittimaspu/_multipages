@@ -1,0 +1,59 @@
+.login-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: visible;
+  z-index: 1;
+
+  h1 {
+    color: #d63384;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+  }
+}
+
+.input-field {
+  border-radius: 5px;
+  border: 1px solid #d63384;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+
+  .btn {
+    width: 48%;
+  }
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.animated-sticker {
+  position: absolute; /* Position it absolutely */
+  top: -30px; /* Positioning above the login container */
+  right: -100px; /* Positioning off to the right */
+  z-index: 2; /* Ensure it appears above the login container */
+}
+
+.animated-sticker img {
+  width: 150px; /* Adjust size of sticker */
+  animation: float 2s ease-in-out infinite; /* Floating effect */
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+}

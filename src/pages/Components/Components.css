@@ -1,0 +1,38 @@
+.component-container {
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  margin: auto;
+  box-shadow: 0 0 0.25rem rgb(167, 137, 159);
+  background-color: #fff0fa;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.main-container {
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-image: url("../../assets/pngtree-natural-forest-with-beautiful-mountains-and-clear-waters-image_2256221.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.component-title {
+  background-color: lemonchiffon;
+  font-style: bold;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.component-name {
+  background-color: lemonchiffon;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
