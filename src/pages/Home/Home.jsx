@@ -14,7 +14,7 @@ function Home() {
                             <span className="floating-heart">💖</span>
                         </div>
                         <Image
-                            src="../../assets/profile.jpg"
+                            src="https://mercuriuster.github.io/_multipages/profile.jpg"
                             roundedCircle
                             fluid
                             alt="Profile Picture"
